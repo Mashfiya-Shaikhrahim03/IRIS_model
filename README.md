@@ -1,19 +1,31 @@
 # 🌸 Iris Flower Classification
 
-This project is based on the famous Iris Flower dataset. The main goal is to predict the species of an iris flower using its measurements like sepal length, sepal width, petal length, and petal width.
+This project is based on the famous Iris Flower dataset, where the goal is to predict the species of a flower using its sepal and petal measurements.
 
-While working on this project, I learned how a machine learning classification model is built from scratch. I started by understanding the dataset, explored it through visualizations, cleaned and prepared the data, trained different machine learning models, and compared their performance to find the best one.
+I built this project to understand the complete machine learning classification workflow. Instead of training just one model, I experimented with multiple classification algorithms and compared their performance to see which one worked best on the dataset.
 
-### 📌 What I did in this project
+## 🚀 What I did
 
-* Explored the dataset using Pandas and Matplotlib.
+* Loaded and explored the Iris dataset.
 * Performed data preprocessing and feature scaling.
 * Split the dataset into training and testing sets.
-* Trained multiple classification models.
-* Compared model performance using Accuracy, Precision, Recall, and F1-Score.
-* Selected the best-performing model for prediction.
+* Trained multiple machine learning models, including:
 
-### 🛠️ Technologies Used
+  * Logistic Regression
+  * Gaussian Naive Bayes
+  * K-Nearest Neighbors (KNN)
+  * Support Vector Machine (SVM)
+* Compared the performance of each model.
+* Evaluated the models using:
+
+  * Accuracy Score
+  * Classification Report
+  * Precision
+  * Recall
+  * F1-Score
+* Selected the best-performing model based on the evaluation results.
+
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -22,8 +34,8 @@ While working on this project, I learned how a machine learning classification m
 * Scikit-learn
 * Jupyter Notebook
 
-### 📈 What I learned
+## 📚 What I Learned
 
-This project helped me understand the complete machine learning workflow, from data preprocessing to model evaluation. It also improved my knowledge of classification algorithms and how to choose the right model based on performance instead of just accuracy.
+Working on this project helped me understand how different classification algorithms behave on the same dataset. I also learned the importance of evaluating models using multiple metrics instead of relying only on accuracy. This project strengthened my understanding of data preprocessing, model training, and performance evaluation.
 
-Thank you for checking out my project! Feel free to explore the notebook and share your suggestions.
+Thank you for visiting my project! I'm continuously learning and improving my machine learning skills, so any suggestions or feedback are always welcome.
